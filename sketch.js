@@ -12,6 +12,7 @@ function setup() {
 }
 
 function draw() {
+  //Make background
   background(255,255,255);  
 
   if(wall.x - car.x < (car.width + wall.width)/2){
